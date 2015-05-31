@@ -1,0 +1,29 @@
+* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html, body {height:100%;}
+body {margin:0;padding:0;position:relative;}
+pre {width:100%;height:100%;}
+h4 {font-size:10pt;}
+
+.box_shadow {-webkit-box-shadow: 0 0 4px 0 #000000; box-shadow: 0 0 4px 0 #000000;}
+.no-select {-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+
+.panel-body {bottom: 10px; position: absolute; top: 30px; left: 0; right: 0;}
+.dropdown-menu .label {text-align:left;}
+#xpathExamples .dropdown-menu>li>a {display:inline-block;}
+.dropdown-menu>li>span {position: absolute; right: 0;}
+
+#header {padding:10px;}
+#top {position: absolute; top: 0; left: 0; width: 100%;}
+#left, #right {position:absolute; top: 55px; bottom: 70px; width: 50%; margin: 0;}
+#left {left: 0;}
+#right {left: 50%;}
+#footer {position:absolute;bottom:0;height:70px;left:0;right:0;text-align:center;font-size:10pt;}
+#leftTab {position: absolute; top: 20px; width:100%; }
+#leftTabContent {position: absolute; top: 70px; bottom: 0; right: 20px; left: 20px;}
+#source, #schema {width:100%;height:100%;}
+#output {top:85px; left:0; right:0; bottom:0;}
+#status {position: absolute; left: 2px; top: 40px; right: 2px; height: 52px;text-align: left; padding: 5px; font-size:90%;overflow:auto;}
+.label-success, .label-danger {cursor:pointer;}
+#selectMethod {padding: 0; margin-left: 5px;}
+#inputArea {position: absolute; right: 0; left: 10px;}
+#format {float:right;}
